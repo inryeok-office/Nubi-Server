@@ -1,0 +1,14 @@
+.gradle/
+.gradle-user-home/
+.tools/
+build/
+out/
+.idea/
+*.iml
+*.iws
+*.ipr
+.env
+!.env.example
+*.log
+bin/
+obj/

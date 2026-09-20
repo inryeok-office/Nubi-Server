@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    hikari:
+      maximum-pool-size: 3
+  flyway:
+    clean-disabled: false
+
+logging:
+  level:
+    org.testcontainers: INFO
