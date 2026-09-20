@@ -1,0 +1,22 @@
+{
+  "source": "https://www.grtc.co.kr/subway/openapi/json/stationTimeInfomation?station_id=1",
+  "capturedAt": "2026-09-21",
+  "list": [
+    {
+      "start_station_id": 1,
+      "start_station_name": "Pyeongdong Station",
+      "end_station_id": 2,
+      "end_station_name": "Dosan Station",
+      "station_distance": 1.9,
+      "station_time": 2.0
+    },
+    {
+      "start_station_id": 1,
+      "start_station_name": "Pyeongdong Station",
+      "end_station_id": 3,
+      "end_station_name": "Gwangju Songjeong Station",
+      "station_distance": 2.6,
+      "station_time": 3.5
+    }
+  ]
+}
