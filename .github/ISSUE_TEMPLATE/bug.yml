@@ -1,0 +1,17 @@
+name: Bug
+description: 버그 신고
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: textarea
+    id: symptom
+    attributes:
+      label: 증상
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 재현 방법
+    validations:
+      required: true

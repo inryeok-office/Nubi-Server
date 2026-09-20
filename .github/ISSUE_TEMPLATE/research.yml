@@ -1,0 +1,17 @@
+name: Research
+description: 기술 또는 데이터 조사
+title: "[Research] "
+labels: [research]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: 조사 질문
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 확인할 근거와 완료 조건
+    validations:
+      required: true
