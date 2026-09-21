@@ -36,4 +36,4 @@
 - [저상버스 식별](low-floor-bus.md)
 - [도시철도](subway.md)
 - [전체 타당성 보고서](feasibility-report.md)
-
+- [정식 OpenAPI 검증 계획](official-api-validation-plan.md)
