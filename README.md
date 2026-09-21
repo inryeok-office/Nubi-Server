@@ -28,6 +28,25 @@ Swagger UI: `http://localhost:8080/swagger-ui.html`
 
 OpenAPI JSON: `http://localhost:8080/v3/api-docs`
 
+## 정식 광주버스 API 검증
+
+루트 `.env`에 서비스키를 입력한 뒤 별도 shell export 없이 다음 task를 실행합니다.
+
+```text
+GWANGJU_BUS_API_KEY=<로컬 서비스키>
+```
+
+```bash
+./gradlew validateGwangjuBusOfficialApi
+```
+
+이 task만 `.env`를 읽어 child process에 필요한 환경변수만 전달합니다.
+일반 `bootRun`과 Spring Boot는 `.env`를 자동으로 읽지 않습니다.
+
+키가 없으면 API 호출 없이 실패하며, 결과 요약은
+`build/reports/gwangju-bus-validation/official-api-validation-result.md`에 저장됩니다.
+report에는 서비스키나 raw response를 저장하지 않습니다.
+
 ## 환경변수
 
 `.env.example`을 복사해 로컬에서만 사용합니다. Secret과 서비스키는 커밋하지 않습니다.

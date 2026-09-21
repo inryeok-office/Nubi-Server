@@ -257,13 +257,15 @@ vehicleId | officialLowBus | observedLowBus | match
 현재 Spring Boot의 `application.yml`은 `GWANGJU_BUS_API_KEY` 환경변수를 읽지만,
 Spring Boot와 `./gradlew bootRun`은 저장소 루트의 `.env`를 자동으로 읽지 않는다.
 Docker Compose에도 현재 이 키를 위한 `env_file` 설정은 없다. 따라서 dotenv 라이브러리는
-추가하지 않는다.
+추가하지 않는다. 대신 `validateGwangjuBusOfficialApi` Gradle task만 `.env`를 읽어
+검증 child process에 필요한 allowlist 환경변수를 전달한다.
 
 가장 단순한 실행 방법은 IDE Run Configuration 또는 실행 중인 shell의 환경변수에
 `GWANGJU_BUS_API_KEY`를 설정하는 것이다. PowerShell에서는 키를 화면에 출력하지 않는
 방식으로 현재 세션에만 설정한 뒤 같은 세션에서 `./gradlew bootRun`을 실행한다.
 Bash 계열도 같은 방식으로 현재 shell에만 `export GWANGJU_BUS_API_KEY=...`를 적용한다.
-루트 `.env`는 입력값 보관용 placeholder 파일이며 자동 로딩 파일이 아니다.
+루트 `.env`는 일반 애플리케이션의 자동 로딩 파일은 아니지만, 위 검증 task에서는
+입력값으로 자동 로드된다.
 
 ## 다음 단계에서 실행할 검증
 
