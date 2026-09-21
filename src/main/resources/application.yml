@@ -21,4 +21,13 @@ management:
         enabled: true
 
 nubi:
-  public-api-key: ${NUBI_PUBLIC_API_KEY:}
+  gwangju:
+    data-source: ${GWANGJU_BUS_DATA_SOURCE:observed-web-api}
+    api-key: ${GWANGJU_BUS_API_KEY:}
+    observed-base-url: ${GWANGJU_BUS_OBSERVED_BASE_URL:https://bus.gwangju.go.kr}
+    official-base-url: ${GWANGJU_BUS_OFFICIAL_BASE_URL:}
+    collection-enabled: ${GWANGJU_BUS_COLLECT_ON_STARTUP:false}
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
