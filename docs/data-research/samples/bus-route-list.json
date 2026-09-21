@@ -1,0 +1,22 @@
+{
+  "source": "https://bus.gwangju.go.kr/busmap/lineSearchListTemp2",
+  "capturedAt": "2026-09-21",
+  "list": [
+    {
+      "LINE_ID": 1,
+      "LINE_NAME": "Sunhwan01A",
+      "DIR_UP_NAME": "Seha-dong",
+      "DIR_DOWN_NAME": "Seha-dong",
+      "LINE_KIND": 1,
+      "RUN_TIME": "timetable"
+    },
+    {
+      "LINE_ID": 6,
+      "LINE_NAME": "Jiwon15",
+      "DIR_UP_NAME": "Taeryeong",
+      "DIR_DOWN_NAME": "Wolnam-dong",
+      "LINE_KIND": 2,
+      "RUN_TIME": "timetable"
+    }
+  ]
+}

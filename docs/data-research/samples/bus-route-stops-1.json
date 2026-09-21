@@ -1,0 +1,24 @@
+{
+  "source": "https://bus.gwangju.go.kr/busmap/lineStationListTemp2?LINE_ID=1",
+  "capturedAt": "2026-09-21",
+  "list": [
+    {
+      "LINE_ID": 1,
+      "LINE_NAME": "Sunhwan01A",
+      "BUSSTOP_ID": 3609,
+      "BUSSTOP_NAME": "Seha-dong",
+      "ARS_ID": null,
+      "LONGITUDE": 126.83257001,
+      "LATITUDE": 35.11957758
+    },
+    {
+      "LINE_ID": 1,
+      "LINE_NAME": "Sunhwan01A",
+      "BUSSTOP_ID": 1802,
+      "BUSSTOP_NAME": "Seochang Nonghyup",
+      "ARS_ID": "2126",
+      "LONGITUDE": 126.83178333,
+      "LATITUDE": 35.13278889
+    }
+  ]
+}

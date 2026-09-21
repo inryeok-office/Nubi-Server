@@ -1,0 +1,36 @@
+{
+  "source": "https://bus.gwangju.go.kr/busmap/lineBusLocationListTemp2?LINE_ID=1",
+  "capturedAt": "2026-09-21",
+  "list": [
+    {
+      "BUS_ID": "5280",
+      "BUSSTOP_NAME": "Namgwangju Nonghyup",
+      "NEXT_BUSSTOP": "-> Juwol Housing Complex North",
+      "CURR_BUSSTOP_SEQ": 60,
+      "LOW_BUS": "1",
+      "LONGITUDE": 126.90255737,
+      "LATITUDE": 35.13353729,
+      "RETURN_SEQ": 106
+    },
+    {
+      "BUS_ID": "5284",
+      "BUSSTOP_NAME": "Gyesu Elementary School",
+      "NEXT_BUSSTOP": "-> Sangmu District",
+      "CURR_BUSSTOP_SEQ": 97,
+      "LOW_BUS": "1",
+      "LONGITUDE": 126.84383392,
+      "LATITUDE": 35.15530396,
+      "RETURN_SEQ": 106
+    },
+    {
+      "BUS_ID": "5243",
+      "BUSSTOP_NAME": "Intersection",
+      "NEXT_BUSSTOP": " ",
+      "CURR_BUSSTOP_SEQ": 3,
+      "LOW_BUS": "0",
+      "LONGITUDE": 126.83991241,
+      "LATITUDE": 35.14242935,
+      "RETURN_SEQ": 106
+    }
+  ]
+}

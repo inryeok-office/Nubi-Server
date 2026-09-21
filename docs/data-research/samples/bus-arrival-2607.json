@@ -1,0 +1,30 @@
+{
+  "source": "https://bus.gwangju.go.kr/busmap/lineStationArriveInfoListTemp2?BUSSTOP_ID=2607",
+  "capturedAt": "2026-09-21",
+  "list": [
+    {
+      "BUS_ID": "775246",
+      "LINE_ID": 1,
+      "LINE_NAME": "순환01A(계수초->시청->조선대)",
+      "BUSSTOP_NAME": "광천치안센터",
+      "CURR_STOP_ID": 2420,
+      "REMAIN_MIN": 5,
+      "REMAIN_STOP": 2,
+      "LOW_BUS": "1",
+      "ARRIVE_FLAG": 0,
+      "VALID": 1
+    },
+    {
+      "BUS_ID": "772769",
+      "LINE_ID": 109,
+      "LINE_NAME": "좌석02",
+      "BUSSTOP_NAME": "광천치안센터",
+      "CURR_STOP_ID": 113,
+      "REMAIN_MIN": 8,
+      "REMAIN_STOP": 2,
+      "LOW_BUS": "0",
+      "ARRIVE_FLAG": 0,
+      "VALID": 1
+    }
+  ]
+}

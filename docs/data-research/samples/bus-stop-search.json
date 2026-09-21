@@ -1,0 +1,24 @@
+{
+  "source": "https://bus.gwangju.go.kr/busmap/stationSearchListTemp2?BUSSTOP_NAME=",
+  "capturedAt": "2026-09-21",
+  "list": [
+    {
+      "BUSSTOP_NAME": "31st Division",
+      "ARS_ID": "4356",
+      "NEXT_BUSSTOP": "Won Samgak Village",
+      "BUSSTOP_NM": "31st Division -> Won Samgak Village",
+      "BUSSTOP_ID": 37,
+      "LONGITUDE": 126.90421667,
+      "LATITUDE": 35.19446667
+    },
+    {
+      "BUSSTOP_NAME": "31st Division",
+      "ARS_ID": "4357",
+      "NEXT_BUSSTOP": "Ochi 1-dong Community Center",
+      "BUSSTOP_NM": "31st Division -> Ochi 1-dong Community Center",
+      "BUSSTOP_ID": 118,
+      "LONGITUDE": 126.904064,
+      "LATITUDE": 35.1945325
+    }
+  ]
+}

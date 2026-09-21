@@ -1,0 +1,9 @@
+{
+  "source": "https://www.grtc.co.kr/subway/openapi/json/stationInformation?station_id=1",
+  "capturedAt": "2026-09-21",
+  "station_name": "평동",
+  "station_id": 1,
+  "station_place": "평동로 870(월전동)",
+  "waiting_room_area": "195.29",
+  "station_area": "836.87"
+}
